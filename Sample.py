@@ -47,7 +47,7 @@ def handle_call():
 # In[4]:
 
 
-app.run(host='0.0.0.0', port=5000, debug=True)
+app.run()
 
 
 # In[ ]:
