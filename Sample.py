@@ -19,15 +19,15 @@ app = flask.Flask(__name__)
 
 
 #to display the connection status
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/connect', methods=['GET', 'POST'])
 def handle_call():
     return "Hello you are Successfully Connected....."
 
 
 # In[4]:
 
-
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 # In[ ]:
